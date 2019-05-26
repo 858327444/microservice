@@ -5,7 +5,11 @@
 	<groupId>com.atguigu.springcloud</groupId>
 	<artifactId>microservicecloud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+    <modules>
+        <module>microservicecloud-api</module>
+		<module>microservicecloud-provider-dept-8001</module>
+	</modules>
+    <packaging>pom</packaging>
 
 
 	<properties>
