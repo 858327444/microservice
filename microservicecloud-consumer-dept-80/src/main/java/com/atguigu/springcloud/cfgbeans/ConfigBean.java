@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
  * @version 1.0
  */
 @Configuration
-public class ConfigBean {
+public class ConfigBean {//boot -->spring   applicationContext.xml --- @Configuration配置   ConfigBean = applicationContext.xml
 
     @Bean
     public RestTemplate getRestTemplate() {
