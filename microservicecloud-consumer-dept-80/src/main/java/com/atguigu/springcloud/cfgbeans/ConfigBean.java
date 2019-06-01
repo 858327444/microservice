@@ -16,8 +16,8 @@ import org.springframework.web.client.RestTemplate;
 public class ConfigBean {//boot -->spring   applicationContext.xml --- @Configuration配置   ConfigBean = applicationContext.xml
 
     @Bean
-    @LoadBalanced //
-    public RestTemplate getRestTemplate() {
+    @LoadBalanced // SpringCloud Ribbon是基于Netfix Ribbon实现的一套客户端,负载均衡的工具
+    public RestTemplate getRestTemplates() {
         return new RestTemplate();
     }
 }
