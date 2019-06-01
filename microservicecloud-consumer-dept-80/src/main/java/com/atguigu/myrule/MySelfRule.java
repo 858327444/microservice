@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * 自定义负载均衡算法
+ * 自定义负载均衡算法.
  * Program Name: microservicecloud
  * Created by yanlp on 2019-06-01
  *

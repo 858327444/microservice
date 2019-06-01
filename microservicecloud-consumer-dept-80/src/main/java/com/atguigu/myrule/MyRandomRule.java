@@ -9,6 +9,8 @@ import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
+ * 自定义负载均衡算法
+ * 新需求,每个服务器要求被调用5次,也即以前每台机器一次,现在每台机器5次
  * Program Name: microservicecloud
  * Created by yanlp on 2019-06-01
  *
