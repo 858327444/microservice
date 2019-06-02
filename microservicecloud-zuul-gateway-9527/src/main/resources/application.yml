@@ -13,6 +13,12 @@ eureka:
     instance-id: gateway-9527.com
     prefer-ip-address: true
 
+zuul:
+  prefix: /atguigu         # 设置统一公共前缀
+  ignored-services: "*"    # 原真实服务名忽略,不让别人看到是哪些微服务的
+  routes:
+    mydept.serviceId: microservicecloud-dept
+    mydept.path: /mydept/**    # 域名映射,代理名称
 info:
   app.name: atguigu-microcloud
   company.name: www.atguigu.com
